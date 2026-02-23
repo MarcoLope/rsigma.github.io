@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RSigma Consulting | Actuarial, Risk & Analytics Advisory</title>
+  <meta name="description" content="RSigma Consulting specializes in automated regulatory reporting, data quality and political data science.">
+  <style>
+    :root {
+      --primary: #1f3a5f;
+      --secondary: #5fa8d3;
+      --text: #1f2933;
+      --muted: #6b7280;
+      --bg: #ffffff;
+      --light: #f5f7fa;
+      --max-width: 1100px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    header { border-bottom: 1px solid #e5e7eb; }
+    .nav {
+      max-width: var(--max-width);
+      margin: auto;
+      padding: 24px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .brand { font-size: 1.4rem; font-weight: 600; color: var(--primary); }
+    .hero { background: var(--light); padding: 96px 24px; }
+    .container { max-width: var(--max-width); margin: auto; padding: 48px 24px; }
+    h1 { font-size: 2.6rem; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 2rem; margin-bottom: 24px; color: var(--primary); }
+    h3 { margin-bottom: 12px; }
+    p { margin-bottom: 16px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+      gap: 32px;
+      margin-top: 48px;
+    }
+    .card {
+      border: 1px solid #e5e7eb;
+      padding: 32px;
+      border-radius: 8px;
+      background: #fff;
+    }
+    ul { margin-left: 18px; color: var(--muted); }
+    ul li { margin-bottom: 8px; }
+    .methodology { background: var(--light); }
+    footer {
+      background: #0f172a;
+      color: #e5e7eb;
+      padding: 48px 24px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand">RSigma Consulting</div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Automated, data-driven decisions for regulation, governance and political strategy.</h1>
+    <p>
+      RSigma Consulting helps organizations automate regulatory, data quality and analytical processes
+      using robust statistical models and scalable data pipelines.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Automated Regulatory Reporting</h3>
+        <p>
+          We design and automate regulatory reporting processes to ensure consistency, traceability
+          and audit-readiness across reporting cycles.
+        </p>
+        <ul>
+          <li>Automated regulatory reports</li>
+          <li>Statistical validation of figures</li>
+          <li>Reproducible reporting pipelines</li>
+          <li>Audit-ready documentation</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Data Quality & Process Automation</h3>
+        <p>
+          We automate data quality controls and governance processes to ensure continuous monitoring
+          and compliance across data ecosystems.
+        </p>
+        <ul>
+          <li>Automated data quality rules</li>
+          <li>Continuous validation pipelines</li>
+          <li>Data lineage and traceability</li>
+          <li>Operational data controls</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Automated Political Data Science</h3>
+        <p>
+          We build end-to-end automated analytical pipelines that transform political data into
+          forecasts, scenarios and strategic insights.
+        </p>
+        <ul>
+          <li>Voter segmentation automation</li>
+          <li>Predictive electoral models</li>
+          <li>Scenario simulation pipelines</li>
+          <li>Campaign performance analytics</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="methodology">
+  <div class="container">
+    <h2>Our Methodology</h2>
+    <div class="grid">
+      <div class="card"><h3>Statistical Rigor</h3><p>Validated models and documented assumptions.</p></div>
+      <div class="card"><h3>Automation by Design</h3><p>Processes are automated, reproducible and scalable.</p></div>
+      <div class="card"><h3>Regulatory-Grade Standards</h3><p>Designed to withstand audits and scrutiny.</p></div>
+      <div class="card"><h3>Ethical Analytics</h3><p>Responsible and transparent use of data.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <strong>RSigma Consulting</strong><br/>
+    Actuarial, Risk & Analytics Advisory
+  </div>
+</footer>
+
+</body>
+</html>
